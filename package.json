@@ -1,0 +1,40 @@
+{
+    "name": "decouverto-benevoles",
+    "version": "0.0.0",
+    "description": "A website to present all the Découverto volunteers.",
+    "devDependencies": {
+        "browser-sync": "^2.24.6",
+        "browserify": "^13.3.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-cli": "^2.0.1",
+        "gulp-concat-css": "^3.1.0",
+        "gulp-csso": "^3.0.1",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-uglify": "^3.0.1",
+        "gulplog": "^1.0.0",
+        "rimraf": "^2.6.2",
+        "through": "^2.3.8",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0",
+        "gulp-json-minify": "^1.2.2",
+        "graceful-fs": {
+            "version": "4.2.2"
+        }
+    },
+    "scripts": {
+        "build": "gulp",
+        "start": "gulp serve",
+        "preinstall": "npx npm-force-resolutions"
+    },
+    "resolutions": {
+        "graceful-fs": "^4.2.4"
+    },
+    "author": {
+        "name": "Cédric JUNG",
+        "email": "cedced19@gmail.com",
+        "url": "https://github.com/cedced19"
+    },
+    "license": "MIT"
+}
